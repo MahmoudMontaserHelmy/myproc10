@@ -1,0 +1,151 @@
+   <!-- hedaer -->
+     <div class="header">
+         <div class="container">
+             <div class="header-content">
+                 <div class="logo">
+                     <img src="imags/mahmoud.png" alt="">
+
+                 </div>
+                 <ul class="nav">
+                    <li><a href="#">Hime</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                 </ul>
+             </div>
+         </div>
+     </div>
+   
+  
+    <!-- hedaer -->
+   <!-- boody -->
+   <!-- <div class="ody">
+       <div class="sor">
+           <h3>welcom</h3>
+       </div>
+   </div> -->
+   <!-- boody -->
+ <!-- home section -->
+ <div class="home">
+     <div class="overlay">
+     <div class="home-conteanit">
+         <h1 class="titel">Welcom To My Paeg</h1>
+         <p class="home-descrbion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quas dolore. Error, perferendis dignissimos similique exercitationem assumenda ipsam vero blanditiis obcaecati ad tempore non pariatur
+              voluptatem incidunt vel laboriosam sint!
+            </p>
+            <button class="btn btn-start hover-opactiy"> Go</button>
+            <button class="btn btn-lern hover-opactiy">Not Go</button>
+     </div>
+    </div>
+ </div>
+ <!-- home section -->
+
+
+
+
+
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    /* staret header */
+    .header {
+       position: fixed;
+       width: 100%;
+       z-index: 1;
+    }
+
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+    .header-content {
+        overflow: hidden;
+    }
+    .container .logo {
+        width: 40%;
+       
+        float: left;
+    }
+    .container .nav {
+        width: 60%;
+       
+        float: left;
+        text-align: right;
+      
+    }
+    .container .nav li {
+       display: inline-block;
+     
+    }
+    .container .nav li a {
+        text-decoration: none;
+        display: block;
+        padding: 30px 15px;
+        color:white;
+    }
+    .container .logo img {
+        width: 128px;
+    }
+    /* End header */
+    
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.3);
+    }
+    .home {
+        
+        height: 100vh;
+        background-image: url(../imags/FB_IMG_1499193949215.jpg);
+        background-size: cover;
+        position: relative;
+    }
+    .home-conteanit {
+       
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+   .home .home-descrbion {
+       margin: 10px 0;
+       color: white;
+       line-height: 1.5;
+   }
+   .home .btn-start {
+    font-size: 40px;
+    border-radius: 9px;
+    cursor: pointer;
+    
+   }
+   .home .btn-lern {
+       color: white;
+    background-color: rgb(105, 105, 196);
+    border-radius: 9px;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+   }
+   .hover-opactiy:hover {
+       opacity: 0.8;
+   }
+
+
+
+
+
+
+
+
